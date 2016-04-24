@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51A49C61CCBCAFD007353EF /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = A51A49C11CCBCAFD007353EF /* madlib0_simple.txt */; };
+		A51A49C71CCBCAFD007353EF /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = A51A49C21CCBCAFD007353EF /* madlib1_tarzan.txt */; };
+		A51A49C81CCBCAFD007353EF /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = A51A49C31CCBCAFD007353EF /* madlib2_university.txt */; };
+		A51A49C91CCBCAFD007353EF /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A51A49C41CCBCAFD007353EF /* madlib3_clothes.txt */; };
+		A51A49CA1CCBCAFD007353EF /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = A51A49C51CCBCAFD007353EF /* madlib4_dance.txt */; };
 		A5A12A881CCA30EA00C023B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12A871CCA30EA00C023B5 /* AppDelegate.swift */; };
 		A5A12A8A1CCA30EA00C023B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12A891CCA30EA00C023B5 /* ViewController.swift */; };
 		A5A12A8D1CCA30EA00C023B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A12A8B1CCA30EA00C023B5 /* Main.storyboard */; };
@@ -14,6 +19,21 @@
 		A5A12A921CCA30EA00C023B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A12A901CCA30EA00C023B5 /* LaunchScreen.storyboard */; };
 		A5A12A9D1CCA30EA00C023B5 /* MadlibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12A9C1CCA30EA00C023B5 /* MadlibsTests.swift */; };
 		A5A12AA81CCA30EB00C023B5 /* MadlibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AA71CCA30EB00C023B5 /* MadlibsUITests.swift */; };
+		A5A12AB61CCA318F00C023B5 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AB51CCA318F00C023B5 /* Story.swift */; };
+		A5A12AB71CCA318F00C023B5 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AB51CCA318F00C023B5 /* Story.swift */; };
+		A5A12AB81CCA318F00C023B5 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AB51CCA318F00C023B5 /* Story.swift */; };
+		A5A12ABA1CCA3ACE00C023B5 /* DisplayStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AB91CCA3ACE00C023B5 /* DisplayStoriesViewController.swift */; };
+		A5A12ABB1CCA3ACE00C023B5 /* DisplayStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AB91CCA3ACE00C023B5 /* DisplayStoriesViewController.swift */; };
+		A5A12ABC1CCA3ACE00C023B5 /* DisplayStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AB91CCA3ACE00C023B5 /* DisplayStoriesViewController.swift */; };
+		A5A12ABE1CCA3E2200C023B5 /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12ABD1CCA3E2200C023B5 /* StoryCell.swift */; };
+		A5A12ABF1CCA3E2200C023B5 /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12ABD1CCA3E2200C023B5 /* StoryCell.swift */; };
+		A5A12AC01CCA3E2200C023B5 /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12ABD1CCA3E2200C023B5 /* StoryCell.swift */; };
+		A5A12AC21CCA485400C023B5 /* EnterTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AC11CCA485400C023B5 /* EnterTextViewController.swift */; };
+		A5A12AC31CCA485400C023B5 /* EnterTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AC11CCA485400C023B5 /* EnterTextViewController.swift */; };
+		A5A12AC41CCA485400C023B5 /* EnterTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AC11CCA485400C023B5 /* EnterTextViewController.swift */; };
+		A5A12AC61CCA50C300C023B5 /* ShowTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AC51CCA50C300C023B5 /* ShowTextViewController.swift */; };
+		A5A12AC71CCA50C300C023B5 /* ShowTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AC51CCA50C300C023B5 /* ShowTextViewController.swift */; };
+		A5A12AC81CCA50C300C023B5 /* ShowTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A12AC51CCA50C300C023B5 /* ShowTextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A51A49C11CCBCAFD007353EF /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib0_simple.txt; path = ../../madlibs_ios/madlib0_simple.txt; sourceTree = "<group>"; };
+		A51A49C21CCBCAFD007353EF /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib1_tarzan.txt; path = ../../madlibs_ios/madlib1_tarzan.txt; sourceTree = "<group>"; };
+		A51A49C31CCBCAFD007353EF /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib2_university.txt; path = ../../madlibs_ios/madlib2_university.txt; sourceTree = "<group>"; };
+		A51A49C41CCBCAFD007353EF /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib3_clothes.txt; path = ../../madlibs_ios/madlib3_clothes.txt; sourceTree = "<group>"; };
+		A51A49C51CCBCAFD007353EF /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib4_dance.txt; path = ../../madlibs_ios/madlib4_dance.txt; sourceTree = "<group>"; };
 		A5A12A841CCA30EA00C023B5 /* Madlibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Madlibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A12A871CCA30EA00C023B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A12A891CCA30EA00C023B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,11 @@
 		A5A12AA31CCA30EB00C023B5 /* MadlibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadlibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A12AA71CCA30EB00C023B5 /* MadlibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadlibsUITests.swift; sourceTree = "<group>"; };
 		A5A12AA91CCA30EB00C023B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A12AB51CCA318F00C023B5 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = ../../madlibs_ios/Story.swift; sourceTree = "<group>"; };
+		A5A12AB91CCA3ACE00C023B5 /* DisplayStoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayStoriesViewController.swift; sourceTree = "<group>"; };
+		A5A12ABD1CCA3E2200C023B5 /* StoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		A5A12AC11CCA485400C023B5 /* EnterTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterTextViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		A5A12AC51CCA50C300C023B5 /* ShowTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +127,22 @@
 		A5A12A861CCA30EA00C023B5 /* Madlibs */ = {
 			isa = PBXGroup;
 			children = (
+				A5A12AB51CCA318F00C023B5 /* Story.swift */,
+				A5A12ABD1CCA3E2200C023B5 /* StoryCell.swift */,
 				A5A12A871CCA30EA00C023B5 /* AppDelegate.swift */,
 				A5A12A891CCA30EA00C023B5 /* ViewController.swift */,
+				A5A12AB91CCA3ACE00C023B5 /* DisplayStoriesViewController.swift */,
+				A5A12AC11CCA485400C023B5 /* EnterTextViewController.swift */,
+				A5A12AC51CCA50C300C023B5 /* ShowTextViewController.swift */,
 				A5A12A8B1CCA30EA00C023B5 /* Main.storyboard */,
 				A5A12A8E1CCA30EA00C023B5 /* Assets.xcassets */,
 				A5A12A901CCA30EA00C023B5 /* LaunchScreen.storyboard */,
 				A5A12A931CCA30EA00C023B5 /* Info.plist */,
+				A51A49C11CCBCAFD007353EF /* madlib0_simple.txt */,
+				A51A49C21CCBCAFD007353EF /* madlib1_tarzan.txt */,
+				A51A49C31CCBCAFD007353EF /* madlib2_university.txt */,
+				A51A49C41CCBCAFD007353EF /* madlib3_clothes.txt */,
+				A51A49C51CCBCAFD007353EF /* madlib4_dance.txt */,
 			);
 			path = Madlibs;
 			sourceTree = "<group>";
@@ -233,7 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A12A921CCA30EA00C023B5 /* LaunchScreen.storyboard in Resources */,
+				A51A49C91CCBCAFD007353EF /* madlib3_clothes.txt in Resources */,
+				A51A49C71CCBCAFD007353EF /* madlib1_tarzan.txt in Resources */,
 				A5A12A8F1CCA30EA00C023B5 /* Assets.xcassets in Resources */,
+				A51A49C61CCBCAFD007353EF /* madlib0_simple.txt in Resources */,
+				A51A49C81CCBCAFD007353EF /* madlib2_university.txt in Resources */,
+				A51A49CA1CCBCAFD007353EF /* madlib4_dance.txt in Resources */,
 				A5A12A8D1CCA30EA00C023B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A12AC21CCA485400C023B5 /* EnterTextViewController.swift in Sources */,
 				A5A12A8A1CCA30EA00C023B5 /* ViewController.swift in Sources */,
 				A5A12A881CCA30EA00C023B5 /* AppDelegate.swift in Sources */,
+				A5A12AB61CCA318F00C023B5 /* Story.swift in Sources */,
+				A5A12AC61CCA50C300C023B5 /* ShowTextViewController.swift in Sources */,
+				A5A12ABA1CCA3ACE00C023B5 /* DisplayStoriesViewController.swift in Sources */,
+				A5A12ABE1CCA3E2200C023B5 /* StoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A12AC71CCA50C300C023B5 /* ShowTextViewController.swift in Sources */,
 				A5A12A9D1CCA30EA00C023B5 /* MadlibsTests.swift in Sources */,
+				A5A12ABB1CCA3ACE00C023B5 /* DisplayStoriesViewController.swift in Sources */,
+				A5A12AB71CCA318F00C023B5 /* Story.swift in Sources */,
+				A5A12ABF1CCA3E2200C023B5 /* StoryCell.swift in Sources */,
+				A5A12AC31CCA485400C023B5 /* EnterTextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +331,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A12AC81CCA50C300C023B5 /* ShowTextViewController.swift in Sources */,
 				A5A12AA81CCA30EB00C023B5 /* MadlibsUITests.swift in Sources */,
+				A5A12ABC1CCA3ACE00C023B5 /* DisplayStoriesViewController.swift in Sources */,
+				A5A12AB81CCA318F00C023B5 /* Story.swift in Sources */,
+				A5A12AC01CCA3E2200C023B5 /* StoryCell.swift in Sources */,
+				A5A12AC41CCA485400C023B5 /* EnterTextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +547,7 @@
 				A5A12AAE1CCA30EB00C023B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5A12AAF1CCA30EB00C023B5 /* Build configuration list for PBXNativeTarget "MadlibsTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +556,7 @@
 				A5A12AB11CCA30EB00C023B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5A12AB21CCA30EB00C023B5 /* Build configuration list for PBXNativeTarget "MadlibsUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +565,7 @@
 				A5A12AB41CCA30EB00C023B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
